@@ -1,0 +1,21 @@
+﻿
+<style>
+    .btn a {
+        color: white;
+        text-decoration: none
+    }
+
+    body {
+        background-color: #F1F1F1;
+    }
+</style>
+
+<div class="text-center">
+    @ViewBag.Greeting World!
+    <h1>We're going to have an exciting party</h1>
+    <h2>And You're Invited!</h2>
+    <div class="btn btn-success">
+        @Html.ActionLink("RSVP Now", "RsvpForm")
+    </div>
+</div>
+
